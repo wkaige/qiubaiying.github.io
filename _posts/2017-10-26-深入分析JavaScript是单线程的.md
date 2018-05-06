@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      深入分析JavaScript是单线程的
-subtitle:   用几个小demo彻底弄懂JS的单线程机制
+subtitle:   用2个小demo彻底弄懂JS的单线程机制
 date:       2017-10-26
 author:     Gage
 header-img: img/post-bg-js-version.jpg
@@ -57,7 +57,7 @@ OK.执行结果如下：
 
 如果js是单线程的，那么谁去轮询大的Event loop事件队列？答案是`浏览器会有单独的线程去处理这个队列`。
 
-#Ajax异步请求是否真的异步?
+# Ajax异步请求是否真的异步?
 
 既然说JavaScript是单线程运行的，那么XMLHttpRequest在连接后是否真的异步? 
 
